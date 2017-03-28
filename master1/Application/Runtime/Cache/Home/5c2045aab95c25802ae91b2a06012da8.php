@@ -7,7 +7,7 @@
     <meta charset="UTF-8" />
 
     <title>留学大师</title>
-    <base href="http://localhost/project/Study master/master1/Public/">
+    <base href="http://localhost/project/Study master/git/ffck/master1/Public/">
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -415,39 +415,55 @@
 								</div>
 								<div class="panel-body">
 									<form action="" method="post" enctype="multipart/form-data" class="form-horizontal ">
+										<input type="hidden" name="hid" value="<?php echo ($res[""]); ?>">
 										<div class="form-group">
 											<label class="col-md-3 control-label" for="text-input">标题：</label>
 											<div class="col-md-9">
-												<input type="text" id="text-input" name="text-input" class="form-control" placeholder="Text">
+												<input type="text" id="text-input" name="text-input" class="form-control" value="<?php echo ($res[""]); ?>" placeholder="Text">
 											</div>
 										</div>
 
 										<div class="form-group">
 											<label class="col-md-3 control-label" for="textarea-input">内容：</label>
 											<div class="col-md-9">
-												<textarea id="textarea-input" name="textarea-input" rows="9" class="form-control" placeholder="Content.."></textarea>
+												<textarea id="textarea-input" name="textarea-input" rows="9" class="form-control" placeholder="Content.."><?php echo ($res[""]); ?></textarea>
 											</div>
 										</div>
 										<div class="form-group">
 											<label class="col-md-3 control-label" for="file-multiple-input">图片：</label>
 											<div class="col-md-9">
 												<input type="file" id="file-multiple-input" name="file-multiple-input" multiple />
+												<?php if($res != '' ): ?><img src="/project/Study master/git/ffck/master1/<?php echo ($res[""]); ?>" alt="" width="60%"><?php endif; ?>
 											</div>
 										</div>
 										<div class="form-group">
 											<label class="col-md-3 control-label">是否推荐：</label>
-											<div class="col-md-9">
-												<div class="radio-custom radio-inline">
-													<input type="radio" id="inline-radio1" name="inline-radios" value="option1">
-													<label for="inline-radio1">推荐</label>
+
+											<?php if($res["is_show"] == 2): ?><div class="col-md-9">
+													<div class="radio-custom radio-inline">
+														<input type="radio"  name="inline-radios" value="1" >
+														<label for="inline-radio1">推荐</label>
+													</div>
+													<div class="radio-custom radio-inline">
+														<input type="radio" name="inline-radios" value="2" checked>
+														<label for="inline-radio2">不推荐</label>
+													</div>
 												</div>
-												<div class="radio-custom radio-inline">
-													<input type="radio" id="inline-radio2" name="inline-radios" value="option2">
-													<label for="inline-radio2">不推荐</label>
-												</div>
-											</div>
+												<?php else: ?>
+												<div class="col-md-9">
+													<div class="radio-custom radio-inline">
+														<input type="radio" id="inline-radio1" name="inline-radios" value="1" checked>
+														<label for="inline-radio1">推荐</label>
+													</div>
+													<div class="radio-custom radio-inline">
+														<input type="radio" id="inline-radio2" name="inline-radios" value="2">
+														<label for="inline-radio2">不推荐</label>
+													</div>
+												</div><?php endif; ?>
 										</div>
-										<br>
+										<div class="panel-body">
+										<button type="button" class="bk-margin-5 btn btn-primary">Success</button>
+										</div>
 									</form>
 								</div>	
 							</div>	

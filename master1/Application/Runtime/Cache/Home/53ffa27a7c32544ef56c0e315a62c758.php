@@ -259,8 +259,7 @@
     </div>
 </div>
 <!-- End: Header -->
-		
-		<!-- Start: Content -->
+
 		<div class="container-fluid content">	
 			<div class="row">
 
@@ -389,72 +388,60 @@
     </div>
     <!-- End Sidebar Footer-->
 </div>
-
+		
 				<!-- Main Page -->
-				<div class="main sidebar-minified">
+				<div class="main ">
 					<!-- Page Header -->
 					<div class="page-header">
 						<div class="pull-left">
-							<ol class="breadcrumb visible-sm visible-md visible-lg">
+							<ol class="breadcrumb visible-sm visible-md visible-lg">								
 								<li><a href="<?php echo U('index/index');?>">首页</a></li>
-								<li class="active">定制列表</li>
-							</ol>
+								<li><a href="<?php echo U('home/madeList');?>">定制列表</a></li>
+								<li class="active">定制详情</li>
+							</ol>						
 						</div>
 						<div class="pull-right">
-							<h2>MEDALIST</h2>
-						</div>
+							<h2>MEADINFO</h2>
+						</div>					
 					</div>
 					<!-- End Page Header -->
 					<div class="row">
-						<div class="col-lg-12">
-							<div class="panel">
-								<div class="panel-heading bk-bg-primary">
-									<h6><i class="fa fa-table red"></i><span class="break"></span>定制列表</h6>
+						<div class="panel bk-widget bk-border-off bk-noradius">
+							<div class="panel-heading bk-bg-primary">
+								<div class="row">
+									<div class="col-xs-8 text-left bk-vcenter">
+										<h6 class="bk-margin-off">定制详情页</h6>
+									</div>
 									<div class="panel-actions">
-										<a href="<?php echo U('Home/madeAdd');?>" ><button class="bk-margin-5 btn label-warning">添加定制</button></a>
+										<a href="<?php echo U('Home/madeAdd');?>" ><button class="bk-margin-5 btn label-warning">修改定制</button></a>
 									</div>
 								</div>
-								<div class="panel-body">
-									<div class="table-responsive">
-										<table class="table table-striped table-bordered bootstrap-datatable datatable">
-											<thead>
-												<tr>
-													<th>Employe</th>
-													<th>Position</th>
-													<th>Salary</th>
-													<th>Status</th>
-													<th>Actions</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Willson</td>
-													<td>Developer</td>
-													<td>2563$</td>
-													<td>
-														<span class="label label-warning">Pending</span>
-													</td>
-													<td>
-														<a class="btn btn-info" href="<?php echo U('home/madeInfo');?>">
-															<i class="fa fa-search-plus "></i>
-														</a>
-														<a class="btn btn-success" href="table.html#">
-															<i class="fa fa-edit "></i>
-														</a>
-														<a class="btn btn-danger" href="table.html#">
-															<i class="fa fa-trash-o "></i>
-
-														</a>
-													</td>
-												</tr>
-											</tbody>
-										</table>
+							</div>
+							<div class="panel-body bk-bg-white bk-padding-off-top bk-padding-off-bottom">
+								<div class="row">
+									<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 bk-vcenter bk-padding-10">
+										<a class="pull-left bk-border-danger">
+											<div class="bk-avatar">
+												<img src="assets/img/gallery/photo6.jpg" alt="" class="img-responsive bk-img-60 bk-border-off" />
+											</div>
+										</a>
 									</div>
+									<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 bk-vcenter">
+										<h6 class="bk-fg-danger bk-margin-off-bottom"><strong>RESPONSIVE MULTIPURPOSE</strong></h6>
+										<p>
+											<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.东风破进口国博平时的放空管普林斯顿反馈管理把科三答复了高楼大厦发了个破地方看公屏上的反馈狗爬式的反馈公平电饭锅欧佩克的佛光的佛牌给对方</small>
+										</p>
+									</div>
+									<div class="panel-body">
+										<?php if($res["is_show"] == 1 ): ?><button type="button" class="bk-margin-5 btn btn-default active" disabled><i class="glyphicon glyphicon-star"></i>推荐</button>
+											<?php else: ?>
+										    <button type="button" class="bk-margin-5 btn btn-default active" disabled> 不推荐</button><?php endif; ?>
+									</div>
+									<hr class="bk-margin-off" />
 								</div>
 							</div>
 						</div>
 					</div>
-
 				</div>
 				<!-- End Main Page -->
 			

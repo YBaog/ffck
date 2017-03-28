@@ -1,6 +1,6 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
-<base href="http://localhost/project/Study master/master1/Public/">
+
 
     <head>
 
@@ -8,7 +8,7 @@
     <meta charset="UTF-8" />
 
     <title>留学大师</title>
-
+    <base href="http://localhost/project/Study master/git/ffck/master1/Public/">
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -1606,25 +1606,7 @@
 		</div><!--/container-->
 
 
-		<!-- Modal Dialog -->
-<div class="modal fade" id="myModal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title bk-fg-primary">Modal title</h4>
-            </div>
-            <div class="modal-body">
-                <p class="bk-fg-danger">Here settings can be configured...</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-        </div>
-    </div>
-</div><!-- End Modal Dialog -->
-
+		
 <div class="clearfix"></div>
 
 

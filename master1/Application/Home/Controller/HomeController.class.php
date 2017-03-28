@@ -12,16 +12,22 @@ use Think\Controller;
 class HomeController extends Controller
 {
     /*
-     * 定制服务
+     * 定制服务列表页
      */
     public function madeList(){
         $this->display();
     }
     /*
-     * 添加定制服务
+     * 添加定制服务页
      */
     public function madeAdd(){
         $this->display('madeAdd');
+    }
+    /*
+    * 定制服务详情页
+    */
+    public function madeInfo(){
+        $this->display('madeInfo');
     }
 
     /*
