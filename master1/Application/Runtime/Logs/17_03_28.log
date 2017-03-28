@@ -2449,3 +2449,69 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
 
+[ 2017-03-28T14:41:13+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T14:41:16+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T14:41:30+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
