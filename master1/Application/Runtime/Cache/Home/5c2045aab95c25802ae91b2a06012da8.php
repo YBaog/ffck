@@ -1,13 +1,14 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 
-<head>
+
+    <head>
 
     <!-- Basic -->
     <meta charset="UTF-8" />
 
     <title>留学大师</title>
-    <base href="http://localhost/project/Study master/git/ffck/master1/Public/">
+    <base href="http://localhost/ffck/master1/Public/">
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -61,10 +62,12 @@
     <![endif]-->
 
 </head>
-	
-	<body>
 
-	<!-- Start: Header -->
+
+<body>
+
+    
+        <!-- Start: Header -->
 <div class="navbar" role="navigation">
     <div class="container-fluid container-nav">
         <!-- Navbar Action -->
@@ -259,11 +262,13 @@
     </div>
 </div>
 <!-- End: Header -->
+    
 
-		<div class="container-fluid content">	
-			<div class="row">
+    <div class="container-fluid content">
+        <div class="row">
 
-				<div class="sidebar">
+            
+                <div class="sidebar">
     <div class="sidebar-collapse">
         <!-- Sidebar Header Logo-->
         <div class="sidebar-header">
@@ -388,97 +393,101 @@
     </div>
     <!-- End Sidebar Footer-->
 </div>
-		
-				<!-- Main Page -->
-				<div class="main ">
-					<!-- Page Header -->
-					<div class="page-header">
-						<div class="pull-left">
-							<ol class="breadcrumb visible-sm visible-md visible-lg">								
-								<li><a href="<?php echo U('index/index');?>">首页</a></li>
-								<li class="active">添加定制</li>
-							</ol>						
-						</div>
-						<div class="pull-right">
-							<h2>MEADADD</h2>
-						</div>					
-					</div>
-					<!-- End Page Header -->
-					<div class="row">
-						<div class="col-md-6">
-							<div class="panel">
-								<div class="panel-heading bk-bg-primary">
-									<h6><i class="fa fa-indent red"></i>添加定制服务</h6>
-									<div class="panel-actions">
-										<a href="<?php echo U('Home/madeList');?>" ><button class="bk-margin-5 btn label-warning">定制列表</button></a>
-									</div>
-								</div>
-								<div class="panel-body">
-									<form action="" method="post" enctype="multipart/form-data" class="form-horizontal ">
-										<input type="hidden" name="hid" value="<?php echo ($res[""]); ?>">
-										<div class="form-group">
-											<label class="col-md-3 control-label" for="text-input">标题：</label>
-											<div class="col-md-9">
-												<input type="text" id="text-input" name="text-input" class="form-control" value="<?php echo ($res[""]); ?>" placeholder="Text">
-											</div>
-										</div>
+            
 
-										<div class="form-group">
-											<label class="col-md-3 control-label" for="textarea-input">内容：</label>
-											<div class="col-md-9">
-												<textarea id="textarea-input" name="textarea-input" rows="9" class="form-control" placeholder="Content.."><?php echo ($res[""]); ?></textarea>
-											</div>
-										</div>
-										<div class="form-group">
-											<label class="col-md-3 control-label" for="file-multiple-input">图片：</label>
-											<div class="col-md-9">
-												<input type="file" id="file-multiple-input" name="file-multiple-input" multiple />
-												<?php if($res != '' ): ?><img src="/project/Study master/git/ffck/master1/<?php echo ($res[""]); ?>" alt="" width="60%"><?php endif; ?>
-											</div>
-										</div>
-										<div class="form-group">
-											<label class="col-md-3 control-label">是否推荐：</label>
+            <!-- Main Page -->
+            <div class="main ">
+                <!-- Page Header -->
+                <div class="page-header">
+                    <div class="pull-left">
+                        <ol class="breadcrumb visible-sm visible-md visible-lg">
+                            <li><a href="<?php echo U('index/index');?>">首页</a></li>
+                            <li class="active">添加定制</li>
+                        </ol>
+                    </div>
+                    <div class="pull-right">
+                        <h2>MEADADD</h2>
+                    </div>
+                </div>
+                <!-- End Page Header -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel">
+                            <div class="panel-heading bk-bg-primary">
+                                <h6><i class="fa fa-indent red"></i>添加定制服务</h6>
+                                <div class="panel-actions">
+                                    <a href="<?php echo U('Home/madeList');?>"><button class="bk-margin-5 btn label-warning">定制列表</button></a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <form action="" method="post" enctype="multipart/form-data" class="form-horizontal ">
+                                    <input type="hidden" name="hid" value="<?php echo ($res[""]); ?>">
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="text-input">标题：</label>
+                                        <div class="col-md-8">
+                                            <input type="text" id="text-input" name="text-input" class="form-control" value="<?php echo ($res[""]); ?>" placeholder="Text">
+                                        </div>
+                                    </div>
 
-											<?php if($res["is_show"] == 2): ?><div class="col-md-9">
-													<div class="radio-custom radio-inline">
-														<input type="radio"  name="inline-radios" value="1" >
-														<label for="inline-radio1">推荐</label>
-													</div>
-													<div class="radio-custom radio-inline">
-														<input type="radio" name="inline-radios" value="2" checked>
-														<label for="inline-radio2">不推荐</label>
-													</div>
-												</div>
-												<?php else: ?>
-												<div class="col-md-9">
-													<div class="radio-custom radio-inline">
-														<input type="radio" id="inline-radio1" name="inline-radios" value="1" checked>
-														<label for="inline-radio1">推荐</label>
-													</div>
-													<div class="radio-custom radio-inline">
-														<input type="radio" id="inline-radio2" name="inline-radios" value="2">
-														<label for="inline-radio2">不推荐</label>
-													</div>
-												</div><?php endif; ?>
-										</div>
-										<div class="panel-body">
-										<button type="button" class="bk-margin-5 btn btn-primary">Success</button>
-										</div>
-									</form>
-								</div>	
-							</div>	
-						</div>
-					</div>
-				</div>
-				<!-- End Main Page -->
-			
-			</div>
-		</div><!--/container-->
-		
-		<div class="clearfix"></div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="textarea-input">内容：</label>
+                                        <div class="col-md-8">
+                                            <textarea id="textarea-input" name="textarea-input" rows="9" class="form-control" placeholder="Content.."><?php echo ($res[""]); ?></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="file-multiple-input">图片：</label>
+                                        <div class="col-md-8">
+                                            <input type="file" id="file-multiple-input" name="file-multiple-input" multiple />
+                                            <?php if($res != '' ): ?><img src="/ffck/master1/<?php echo ($res[""]); ?>" alt="" width="60%"><?php endif; ?>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">是否推荐：</label>
+
+                                        <?php if($res["is_show"] == 2): ?><div class="col-md-8">
+                                                <div class="radio-custom radio-inline">
+                                                    <input type="radio" name="inline-radios" value="1">
+                                                    <label for="inline-radio1">推荐</label>
+                                                </div>
+                                                <div class="radio-custom radio-inline">
+                                                    <input type="radio" name="inline-radios" value="2" checked>
+                                                    <label for="inline-radio2">不推荐</label>
+                                                </div>
+                                            </div>
+                                            <?php else: ?>
+                                            <div class="col-md-9">
+                                                <div class="radio-custom radio-inline">
+                                                    <input type="radio" id="inline-radio1" name="inline-radios" value="1" checked>
+                                                    <label for="inline-radio1">推荐</label>
+                                                </div>
+                                                <div class="radio-custom radio-inline">
+                                                    <input type="radio" id="inline-radio2" name="inline-radios" value="2">
+                                                    <label for="inline-radio2">不推荐</label>
+                                                </div>
+                                            </div><?php endif; ?>
+                                    </div>
+                                    <div class="panel-body">
+                                        <span class="col-md-2"></span>
+                                        <button type="button" class="<bk-margin-left-2></bk-margin-left-2> btn btn-primary">定制完成</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Main Page -->
+
+        </div>
+    </div>
+    <!--/container-->
+
+    <div class="clearfix"></div>
 
 
-	
+    
+        
 <div class="clearfix"></div>
 
 
@@ -522,7 +531,8 @@
 <script src="assets/js/pages/index.js"></script>
 
 <!-- end: JavaScript-->
-		
-	</body>
-	
+    
+
+</body>
+
 </html>

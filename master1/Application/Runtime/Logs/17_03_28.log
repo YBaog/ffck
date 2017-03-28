@@ -716,3 +716,1736 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
 
+[ 2017-03-28T12:25:52+08:00 ] ::1 /ffck/master1/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010742s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.054687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:26:13+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:26:23+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 436 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:26:47+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:26:53+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 436 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:29:18+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:29:20+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 436 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:29:25+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 418 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 422 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 429 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 436 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:32:02+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 418 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 422 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 429 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 436 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:32:08+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:32:09+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 444 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:32:51+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 444 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:33:00+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 444 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:34:05+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:34:36+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:35:41+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:35:42+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:35:42+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:35:42+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:36:10+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.027344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:36:53+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:36:54+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:36:54+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:36:54+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-03-28T12:36:54+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.027344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:37:28+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:37:46+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:37:47+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2017-03-28T12:37:48+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:37:48+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:37:55+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:38:02+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:38:03+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:38:03+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:38:03+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:38:03+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:38:07+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:38:22+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-28T12:38:39+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002930s ]
+
+[ 2017-03-28T12:38:40+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:39:12+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:39:13+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:39:14+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-28T12:39:14+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:39:36+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-03-28T12:40:02+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:40:51+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2017-03-28T12:41:14+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:41:40+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-03-28T12:42:03+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:42:11+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 418 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 422 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 429 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 436 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:42:31+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:43:20+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-03-28T12:43:52+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:44:50+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:45:04+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:45:43+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-03-28T12:46:02+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-03-28T12:46:32+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:46:54+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:47:03+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:47:58+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:47:59+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:47:59+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:47:59+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:48:17+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-28T12:48:18+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:48:18+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:48:35+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:49:39+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:49:40+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:49:40+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:49:40+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.027343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:50:03+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:50:30+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:53:20+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:53:47+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:54:11+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-03-28T12:54:20+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:54:57+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:54:59+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:55:22+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:56:16+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:57:44+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:58:32+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:58:45+08:00 ] ::1 /ffck/master1/index.php/Home/home/madeInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\53ffa27a7c32544ef56c0e315a62c758.php 第 438 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T12:59:03+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:59:05+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-28T12:59:59+08:00 ] ::1 /ffck/master1/index.php/Home/Home/madeAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 424 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 428 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 435 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 442 行.
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\ffck\master1\Application\Runtime\Cache\Home\5c2045aab95c25802ae91b2a06012da8.php 第 448 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+

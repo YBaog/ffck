@@ -1,112 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<block name="include"><include file="Public:head" /></block>
-	
-	<body>
+<block name="include">
+    <include file="Public:head" />
+</block>
 
-	<block name="include"><include file="Public:navbar" /></block>
+<body>
 
-		<div class="container-fluid content">	
-			<div class="row">
+    <block name="include">
+        <include file="Public:navbar" />
+    </block>
 
-				<block name="include"><include file="Public:menu" /></block>
-		
-				<!-- Main Page -->
-				<div class="main ">
-					<!-- Page Header -->
-					<div class="page-header">
-						<div class="pull-left">
-							<ol class="breadcrumb visible-sm visible-md visible-lg">								
-								<li><a href="{:U('index/index')}">首页</a></li>
-								<li class="active">添加定制</li>
-							</ol>						
-						</div>
-						<div class="pull-right">
-							<h2>MEADADD</h2>
-						</div>					
-					</div>
-					<!-- End Page Header -->
-					<div class="row">
-						<div class="col-md-6">
-							<div class="panel">
-								<div class="panel-heading bk-bg-primary">
-									<h6><i class="fa fa-indent red"></i>添加定制服务</h6>
-									<div class="panel-actions">
-										<a href="{:U('Home/madeList')}" ><button class="bk-margin-5 btn label-warning">定制列表</button></a>
-									</div>
-								</div>
-								<div class="panel-body">
-									<form action="" method="post" enctype="multipart/form-data" class="form-horizontal ">
-										<input type="hidden" name="hid" value="{$res.}">
-										<div class="form-group">
-											<label class="col-md-3 control-label" for="text-input">标题：</label>
-											<div class="col-md-9">
-												<input type="text" id="text-input" name="text-input" class="form-control" value="{$res.}" placeholder="Text">
-											</div>
-										</div>
+    <div class="container-fluid content">
+        <div class="row">
 
-										<div class="form-group">
-											<label class="col-md-3 control-label" for="textarea-input">内容：</label>
-											<div class="col-md-9">
-												<textarea id="textarea-input" name="textarea-input" rows="9" class="form-control" placeholder="Content..">{$res.}</textarea>
-											</div>
-										</div>
-										<div class="form-group">
-											<label class="col-md-3 control-label" for="file-multiple-input">图片：</label>
-											<div class="col-md-9">
-												<input type="file" id="file-multiple-input" name="file-multiple-input" multiple />
-												<if condition="$res neq '' ">
-													<img src="__ROOT__/{$res.}" alt="" width="60%">
-													</if>
-											</div>
-										</div>
-										<div class="form-group">
-											<label class="col-md-3 control-label">是否推荐：</label>
+            <block name="include">
+                <include file="Public:menu" />
+            </block>
 
-											<if condition="$res.is_show eq 2">
-												<div class="col-md-9">
-													<div class="radio-custom radio-inline">
-														<input type="radio"  name="inline-radios" value="1" >
-														<label for="inline-radio1">推荐</label>
-													</div>
-													<div class="radio-custom radio-inline">
-														<input type="radio" name="inline-radios" value="2" checked>
-														<label for="inline-radio2">不推荐</label>
-													</div>
-												</div>
-												<else/>
-												<div class="col-md-9">
-													<div class="radio-custom radio-inline">
-														<input type="radio" id="inline-radio1" name="inline-radios" value="1" checked>
-														<label for="inline-radio1">推荐</label>
-													</div>
-													<div class="radio-custom radio-inline">
-														<input type="radio" id="inline-radio2" name="inline-radios" value="2">
-														<label for="inline-radio2">不推荐</label>
-													</div>
-												</div>
-												</if>
-										</div>
-										<div class="panel-body">
-										<button type="button" class="bk-margin-5 btn btn-primary">Success</button>
-										</div>
-									</form>
-								</div>	
-							</div>	
-						</div>
-					</div>
-				</div>
-				<!-- End Main Page -->
-			
-			</div>
-		</div><!--/container-->
-		
-		<div class="clearfix"></div>
+            <!-- Main Page -->
+            <div class="main ">
+                <!-- Page Header -->
+                <div class="page-header">
+                    <div class="pull-left">
+                        <ol class="breadcrumb visible-sm visible-md visible-lg">
+                            <li><a href="{:U('index/index')}">首页</a></li>
+                            <li class="active">添加定制</li>
+                        </ol>
+                    </div>
+                    <div class="pull-right">
+                        <h2>MEADADD</h2>
+                    </div>
+                </div>
+                <!-- End Page Header -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel">
+                            <div class="panel-heading bk-bg-primary">
+                                <h6><i class="fa fa-indent red"></i>添加定制服务</h6>
+                                <div class="panel-actions">
+                                    <a href="{:U('Home/madeList')}"><button class="bk-margin-5 btn label-warning">定制列表</button></a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <form action="" method="post" enctype="multipart/form-data" class="form-horizontal ">
+                                    <input type="hidden" name="hid" value="{$res.}">
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="text-input">标题：</label>
+                                        <div class="col-md-8">
+                                            <input type="text" id="text-input" name="text-input" class="form-control" value="{$res.}" placeholder="Text">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="textarea-input">内容：</label>
+                                        <div class="col-md-8">
+                                            <textarea id="textarea-input" name="textarea-input" rows="9" class="form-control" placeholder="Content..">{$res.}</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="file-multiple-input">图片：</label>
+                                        <div class="col-md-8">
+                                            <input type="file" id="file-multiple-input" name="file-multiple-input" multiple />
+                                            <if condition="$res neq '' ">
+                                                <img src="__ROOT__/{$res.}" alt="" width="60%">
+                                            </if>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">是否推荐：</label>
+
+                                        <if condition="$res.is_show eq 2">
+                                            <div class="col-md-8">
+                                                <div class="radio-custom radio-inline">
+                                                    <input type="radio" name="inline-radios" value="1">
+                                                    <label for="inline-radio1">推荐</label>
+                                                </div>
+                                                <div class="radio-custom radio-inline">
+                                                    <input type="radio" name="inline-radios" value="2" checked>
+                                                    <label for="inline-radio2">不推荐</label>
+                                                </div>
+                                            </div>
+                                            <else/>
+                                            <div class="col-md-9">
+                                                <div class="radio-custom radio-inline">
+                                                    <input type="radio" id="inline-radio1" name="inline-radios" value="1" checked>
+                                                    <label for="inline-radio1">推荐</label>
+                                                </div>
+                                                <div class="radio-custom radio-inline">
+                                                    <input type="radio" id="inline-radio2" name="inline-radios" value="2">
+                                                    <label for="inline-radio2">不推荐</label>
+                                                </div>
+                                            </div>
+                                        </if>
+                                    </div>
+                                    <div class="panel-body">
+                                        <span class="col-md-2"></span>
+                                        <button type="button" class="<bk-margin-left-2></bk-margin-left-2> btn btn-primary">定制完成</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Main Page -->
+
+        </div>
+    </div>
+    <!--/container-->
+
+    <div class="clearfix"></div>
 
 
-	<block name="include"><include file="Public:footer" /></block>
-		
-	</body>
-	
+    <block name="include">
+        <include file="Public:footer" />
+    </block>
+
+</body>
+
 </html>

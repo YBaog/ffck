@@ -8,7 +8,7 @@
     <meta charset="UTF-8" />
 
     <title>留学大师</title>
-    <base href="http://localhost/project/Study master/git/ffck/master1/Public/">
+    <base href="http://localhost/ffck/master1/Public/">
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
