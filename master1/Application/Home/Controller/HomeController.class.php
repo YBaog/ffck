@@ -36,6 +36,19 @@ class HomeController extends Controller
     public function planeList(){
         $this->display();
     }
+    /*
+     * 添加接机服务页
+     */
+    public function planeAdd(){
+        $this->display('planeAdd');
+    }
+    /*
+    * 接机服务详情页
+    */
+    public function planeInfo(){
+        $this->display('planeInfo');
+    }
+
 
     /*
      * 定制服务
@@ -43,5 +56,18 @@ class HomeController extends Controller
     public function carList(){
         $this->display();
     }
+    /*
+    * 添加接机服务页
+    */
+    public function carAdd(){
+        $this->display('carAdd');
+    }
+    /*
+    * 接机服务详情页
+    */
+    public function carInfo(){
+        $this->display('carInfo');
+    }
+
 
 }
