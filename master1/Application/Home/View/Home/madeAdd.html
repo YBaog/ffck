@@ -43,60 +43,54 @@
                                 </div>
                             </div>
                             <div class="panel-body">
-                                <form action="" method="post" enctype="multipart/form-data" class="form-horizontal ">
+                                <form action="{:U('Made/made_add')}" method="post" enctype="multipart/form-data" class="form-horizontal ">
                                     <input type="hidden" name="hid" value="{$res.}">
                                     <div class="form-group">
                                         <label class="col-md-2 control-label" for="text-input">标题：</label>
                                         <div class="col-md-8">
-                                            <input type="text" id="text-input" name="text-input" class="form-control" value="{$res.}" placeholder="Text">
+                                            <input type="text" id="text-input" name="ma_title" class="form-control" value="{$res.}" placeholder="Text">
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <label class="col-md-2 control-label" for="textarea-input">内容：</label>
                                         <div class="col-md-8">
-                                            <textarea id="textarea-input" name="textarea-input" rows="9" class="form-control" placeholder="Content..">{$res.}</textarea>
+                                            <textarea id="textarea-input" name="ma_content" rows="9" class="form-control" placeholder="Content..">{$res.}</textarea>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label class="col-md-2 control-label" for="file-multiple-input">图片：</label>
                                         <div class="col-md-8">
-                                            <input type="file" id="file-multiple-input" name="file-multiple-input" multiple />
+                                            <input type="file" id="file-multiple-input" name="ma_path" multiple />
                                             <if condition="$res neq '' ">
                                                 <img src="__ROOT__/{$res.}" alt="" width="60%">
                                             </if>
                                         </div>
                                     </div>
                                     <div class="form-group">
+                                        <label class="col-md-2 control-label" for="text-input">价格：</label>
+                                        <div class="col-md-8">
+                                            <input type="text" id="text-input" name="ma_price" class="form-control" value="{$res.}" placeholder="Text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
                                         <label class="col-md-2 control-label">是否推荐：</label>
 
-                                        <if condition="$res.is_show eq 2">
                                             <div class="col-md-8">
                                                 <div class="radio-custom radio-inline">
-                                                    <input type="radio" name="inline-radios" value="1">
-                                                    <label for="inline-radio1">推荐</label>
+                                                    <input type="radio" name="is_push" value="1">
+                                                    <label for="inline-radio">推荐</label>
                                                 </div>
                                                 <div class="radio-custom radio-inline">
-                                                    <input type="radio" name="inline-radios" value="2" checked>
-                                                    <label for="inline-radio2">不推荐</label>
+                                                    <input type="radio" name="is_push" value="0" checked>
+                                                    <label for="inline-radio">不推荐</label>
                                                 </div>
                                             </div>
-                                            <else/>
-                                            <div class="col-md-9">
-                                                <div class="radio-custom radio-inline">
-                                                    <input type="radio" id="inline-radio1" name="inline-radios" value="1" checked>
-                                                    <label for="inline-radio1">推荐</label>
-                                                </div>
-                                                <div class="radio-custom radio-inline">
-                                                    <input type="radio" id="inline-radio2" name="inline-radios" value="2">
-                                                    <label for="inline-radio2">不推荐</label>
-                                                </div>
-                                            </div>
-                                        </if>
+
                                     </div>
                                     <div class="panel-body">
                                         <span class="col-md-2"></span>
-                                        <button type="button" class="<bk-margin-left-2></bk-margin-left-2> btn btn-primary">定制完成</button>
+                                        <button type="submit" class="<bk-margin-left-2></bk-margin-left-2> btn btn-primary">定制完成</button>
                                     </div>
                                 </form>
                             </div>
