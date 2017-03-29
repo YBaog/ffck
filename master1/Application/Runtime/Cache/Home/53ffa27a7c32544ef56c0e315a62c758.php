@@ -1,13 +1,14 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 
-<head>
+
+    <head>
 
     <!-- Basic -->
     <meta charset="UTF-8" />
 
     <title>留学大师</title>
-    <base href="http://localhost/project/Study master/git/ffck/master1/Public/">
+    <base href="http://localhost/ffck/master1/Public/">
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -61,10 +62,12 @@
     <![endif]-->
 
 </head>
-	
-	<body>
 
-	<!-- Start: Header -->
+
+<body>
+
+    
+        <!-- Start: Header -->
 <div class="navbar" role="navigation">
     <div class="container-fluid container-nav">
         <!-- Navbar Action -->
@@ -259,11 +262,13 @@
     </div>
 </div>
 <!-- End: Header -->
+    
 
-		<div class="container-fluid content">	
-			<div class="row">
+    <div class="container-fluid content">
+        <div class="row">
 
-				<div class="sidebar">
+            
+                <div class="sidebar">
     <div class="sidebar-collapse">
         <!-- Sidebar Header Logo-->
         <div class="sidebar-header">
@@ -388,70 +393,69 @@
     </div>
     <!-- End Sidebar Footer-->
 </div>
-		
-				<!-- Main Page -->
-				<div class="main ">
-					<!-- Page Header -->
-					<div class="page-header">
-						<div class="pull-left">
-							<ol class="breadcrumb visible-sm visible-md visible-lg">								
-								<li><a href="<?php echo U('index/index');?>">首页</a></li>
-								<li><a href="<?php echo U('home/madeList');?>">定制列表</a></li>
-								<li class="active">定制详情</li>
-							</ol>						
-						</div>
-						<div class="pull-right">
-							<h2>MEADINFO</h2>
-						</div>					
-					</div>
-					<!-- End Page Header -->
-					<div class="row">
-						<div class="panel bk-widget bk-border-off bk-noradius">
-							<div class="panel-heading bk-bg-primary">
-								<div class="row">
-									<div class="col-xs-8 text-left bk-vcenter">
-										<h6 class="bk-margin-off">定制详情页</h6>
-									</div>
-									<div class="panel-actions">
-										<a href="<?php echo U('Home/madeAdd');?>" ><button class="bk-margin-5 btn label-warning">修改定制</button></a>
-									</div>
-								</div>
-							</div>
-							<div class="panel-body bk-bg-white bk-padding-off-top bk-padding-off-bottom">
-								<div class="row">
-									<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 bk-vcenter bk-padding-10">
-										<a class="pull-left bk-border-danger">
-											<div class="bk-avatar">
-												<img src="assets/img/gallery/photo6.jpg" alt="" class="img-responsive bk-img-60 bk-border-off" />
-											</div>
-										</a>
-									</div>
-									<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 bk-vcenter">
-										<h6 class="bk-fg-danger bk-margin-off-bottom"><strong>RESPONSIVE MULTIPURPOSE</strong></h6>
-										<p>
-											<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.东风破进口国博平时的放空管普林斯顿反馈管理把科三答复了高楼大厦发了个破地方看公屏上的反馈狗爬式的反馈公平电饭锅欧佩克的佛光的佛牌给对方</small>
-										</p>
-									</div>
-									<div class="panel-body">
-										<?php if($res["is_show"] == 1 ): ?><button type="button" class="bk-margin-5 btn btn-default active" disabled><i class="glyphicon glyphicon-star"></i>推荐</button>
-											<?php else: ?>
-										    <button type="button" class="bk-margin-5 btn btn-default active" disabled> 不推荐</button><?php endif; ?>
-									</div>
-									<hr class="bk-margin-off" />
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- End Main Page -->
-			
-			</div>
-		</div><!--/container-->
-		
-		<div class="clearfix"></div>
+            
+
+            <!-- Main Page -->
+            <div class="main ">
+                <!-- Page Header -->
+                <div class="page-header">
+                    <div class="pull-left">
+                        <ol class="breadcrumb visible-sm visible-md visible-lg">
+                            <li><a href="<?php echo U('index/index');?>">首页</a></li>
+                            <li><a href="<?php echo U('home/madeList');?>">定制列表</a></li>
+                            <li class="active">定制详情</li>
+                        </ol>
+                    </div>
+                    <div class="pull-right">
+                        <h2>MEADINFO</h2>
+                    </div>
+                </div>
+                <!-- End Page Header -->
+                <div class="row">
+                    <div class="panel bk-widget bk-border-off bk-noradius">
+                        <div class="panel-heading bk-bg-primary">
+                            <div class="row">
+                                <div class="col-xs-8 text-left bk-vcenter">
+                                    <h6 class="bk-margin-off">定制详情页</h6>
+                                </div>
+                                <div class="panel-actions bk-padding-right-30">
+                                    <a href="<?php echo U('Home/madeAdd');?>"><button class="bk-margin-4 btn label-warning">修改定制</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body bk-bg-white bk-padding-off-top bk-padding-off-bottom">
+                            <div class="row container">
+                                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 bk-vcenter">
+                                    <h3 class="text-center bk-padding-20">我是标题我是标题我是标题我</h3>
+                                    <div class="bk-avatar">
+                                        <img src="assets/img/gallery/photo6.jpg" alt="" class="img-responsive bk-border-off" />
+                                    </div>
+                                    <p class="bk-padding-top-10">
+                                        我是内容 我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+                                    </p>
+                                </div>
+                                <div class="panel-body">
+                                    <?php if($res["is_show"] == 1 ): ?><button type="button" class="bk-margin-5 btn btn-default active" disabled><i class="glyphicon glyphicon-star"></i>推荐</button>
+                                        <?php else: ?>
+                                        <button type="button" class="bk-margin-5 btn btn-default active" disabled> 不推荐</button><?php endif; ?>
+                                </div>
+                                <hr class="bk-margin-off" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Main Page -->
+
+        </div>
+    </div>
+    <!--/container-->
+
+    <div class="clearfix"></div>
 
 
-	
+    
+        
 <div class="clearfix"></div>
 
 
@@ -495,7 +499,8 @@
 <script src="assets/js/pages/index.js"></script>
 
 <!-- end: JavaScript-->
-		
-	</body>
-	
+    
+
+</body>
+
 </html>
