@@ -396,7 +396,7 @@
 						<div class="pull-left">
 							<ol class="breadcrumb visible-sm visible-md visible-lg">								
 								<li><a href="<?php echo U('index/index');?>">首页</a></li>
-								<li class="active">添加定制</li>
+								<li class="active">添加接机</li>
 							</ol>						
 						</div>
 						<div class="pull-right">
@@ -408,9 +408,9 @@
 						<div class="col-md-6">
 							<div class="panel">
 								<div class="panel-heading bk-bg-primary">
-									<h6><i class="fa fa-indent red"></i>添加定制服务</h6>
+									<h6><i class="fa fa-indent red"></i>添加接机服务</h6>
 									<div class="panel-actions">
-										<a href="<?php echo U('Home/madeList');?>" ><button class="bk-margin-5 btn label-warning">定制列表</button></a>
+										<a href="<?php echo U('Home/planeList');?>" ><button class="bk-margin-5 btn label-warning">接机列表</button></a>
 									</div>
 								</div>
 								<div class="panel-body">

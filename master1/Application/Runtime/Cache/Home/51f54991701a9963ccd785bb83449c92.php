@@ -289,8 +289,8 @@
                         </a>
                         <ul class="nav nav-children">
                             <li><a href="<?php echo U('home/madeList');?>"><i class="glyphicon glyphicon-pushpin"></i><span class="text"> 定制服务</span></a></li>
-                            <li><a href="page-activity.html"><i class="fa fa-plane"></i><span class="text"> 接机服务</span></a></li>
-                            <li><a href="fa-truck"><i class="fa fa-truck"></i><span class="text"> 包车服务</span></a></li>
+                            <li><a href="<?php echo U('home/planeList');?>"><i class="fa fa-plane"></i><span class="text"> 接机服务</span></a></li>
+                            <li><a href="<?php echo U('home/carList');?>"><i class="fa fa-truck"></i><span class="text"> 包车服务</span></a></li>
                         </ul>
                     </li>
                     <li class="nav-parent">

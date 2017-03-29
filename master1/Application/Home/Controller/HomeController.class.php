@@ -34,7 +34,7 @@ class HomeController extends Controller
      * 定制服务
      */
     public function planeList(){
-        $this->display();
+        $this->display('planeList');
     }
     /*
      * 添加接机服务页
@@ -48,7 +48,6 @@ class HomeController extends Controller
     public function planeInfo(){
         $this->display('planeInfo');
     }
-
 
     /*
      * 定制服务

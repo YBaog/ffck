@@ -259,7 +259,8 @@
     </div>
 </div>
 <!-- End: Header -->
-
+		
+		<!-- Start: Content -->
 		<div class="container-fluid content">	
 			<div class="row">
 
@@ -388,87 +389,72 @@
     </div>
     <!-- End Sidebar Footer-->
 </div>
-		
+
 				<!-- Main Page -->
-				<div class="main ">
+				<div class="main sidebar-minified">
 					<!-- Page Header -->
 					<div class="page-header">
 						<div class="pull-left">
-							<ol class="breadcrumb visible-sm visible-md visible-lg">								
+							<ol class="breadcrumb visible-sm visible-md visible-lg">
 								<li><a href="<?php echo U('index/index');?>">首页</a></li>
-								<li class="active">添加定制</li>
-							</ol>						
+								<li class="active">包车列表</li>
+							</ol>
 						</div>
 						<div class="pull-right">
-							<h2>MEADADD</h2>
-						</div>					
+							<h2>MEDALIST</h2>
+						</div>
 					</div>
 					<!-- End Page Header -->
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-lg-12">
 							<div class="panel">
 								<div class="panel-heading bk-bg-primary">
-									<h6><i class="fa fa-indent red"></i>添加定制服务</h6>
+									<h6><i class="fa fa-table red"></i><span class="break"></span>包车列表</h6>
 									<div class="panel-actions">
-										<a href="<?php echo U('Home/madeList');?>" ><button class="bk-margin-5 btn label-warning">定制列表</button></a>
+										<a href="<?php echo U('Home/carAdd');?>" ><button class="bk-margin-5 btn label-warning">添加包车</button></a>
 									</div>
 								</div>
 								<div class="panel-body">
-									<form action="" method="post" enctype="multipart/form-data" class="form-horizontal ">
-										<input type="hidden" name="hid" value="<?php echo ($res[""]); ?>">
-										<div class="form-group">
-											<label class="col-md-3 control-label" for="text-input">标题：</label>
-											<div class="col-md-9">
-												<input type="text" id="text-input" name="text-input" class="form-control" value="<?php echo ($res[""]); ?>" placeholder="Text">
-											</div>
-										</div>
+									<div class="table-responsive">
+										<table class="table table-striped table-bordered bootstrap-datatable datatable">
+											<thead>
+												<tr>
+													<th>Employe</th>
+													<th>Position</th>
+													<th>Salary</th>
+													<th>Status</th>
+													<th>Actions</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Willson</td>
+													<td>Developer</td>
+													<td>2563$</td>
+													<td>
+														<span class="label label-warning">Pending</span>
+													</td>
+													<td>
+														<a class="btn btn-info" href="<?php echo U('home/carInfo');?>">
+															<i class="fa fa-search-plus "></i>
+														</a>
+														<a class="btn btn-success" href="table.html#">
+															<i class="fa fa-edit "></i>
+														</a>
+														<a class="btn btn-danger" href="table.html#">
+															<i class="fa fa-trash-o "></i>
 
-										<div class="form-group">
-											<label class="col-md-3 control-label" for="textarea-input">内容：</label>
-											<div class="col-md-9">
-												<textarea id="textarea-input" name="textarea-input" rows="9" class="form-control" placeholder="Content.."><?php echo ($res[""]); ?></textarea>
-											</div>
-										</div>
-										<div class="form-group">
-											<label class="col-md-3 control-label" for="file-multiple-input">图片：</label>
-											<div class="col-md-9">
-												<input type="file" id="file-multiple-input" name="file-multiple-input" multiple />
-												<?php if($res != '' ): ?><img src="/project/Study master/git/ffck/master1/<?php echo ($res[""]); ?>" alt="" width="60%"><?php endif; ?>
-											</div>
-										</div>
-										<div class="form-group">
-											<label class="col-md-3 control-label">是否推荐：</label>
-
-											<?php if($res["is_show"] == 2): ?><div class="col-md-9">
-													<div class="radio-custom radio-inline">
-														<input type="radio"  name="inline-radios" value="1" >
-														<label for="inline-radio1">推荐</label>
-													</div>
-													<div class="radio-custom radio-inline">
-														<input type="radio" name="inline-radios" value="2" checked>
-														<label for="inline-radio2">不推荐</label>
-													</div>
-												</div>
-												<?php else: ?>
-												<div class="col-md-9">
-													<div class="radio-custom radio-inline">
-														<input type="radio" id="inline-radio1" name="inline-radios" value="1" checked>
-														<label for="inline-radio1">推荐</label>
-													</div>
-													<div class="radio-custom radio-inline">
-														<input type="radio" id="inline-radio2" name="inline-radios" value="2">
-														<label for="inline-radio2">不推荐</label>
-													</div>
-												</div><?php endif; ?>
-										</div>
-										<div class="panel-body">
-										<button type="button" class="bk-margin-5 btn btn-primary">Success</button>
-										</div>
-									</form>
-								</div>	
-							</div>	
+														</a>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
+
 				</div>
 				<!-- End Main Page -->
 			

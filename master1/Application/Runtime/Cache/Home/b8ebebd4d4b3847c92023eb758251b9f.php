@@ -297,9 +297,9 @@
                             <i class="fa fa-tags" aria-hidden="true"></i><span>攻略</span>
                         </a>
                         <ul class="nav nav-children">
-                            <li><a href="form-elements.html"><i class="glyphicon glyphicon-pencil"></i><span class="text">添加攻略</span></a></li>
-                            <li><a href="form-wizard.html"><i class="fa fa-tag"></i><span class="text">新生攻略</span></a></li>
-                            <li><a href="form-dropzone.html"><i class="fa fa-gittip"></i><span class="text">师兄分享</span></a></li>
+                            <li><a href="<?php echo U('raider/raiderAdd');?>"><i class="glyphicon glyphicon-pencil"></i><span class="text">添加攻略</span></a></li>
+                            <li><a href="<?php echo U('raider/studentList');?>"><i class="fa fa-tag"></i><span class="text">新生攻略</span></a></li>
+                            <li><a href="<?php echo U('raider/brotherList');?>"><i class="fa fa-gittip"></i><span class="text">师兄分享</span></a></li>
                         </ul>
                     </li>
 
@@ -396,77 +396,50 @@
 						<div class="pull-left">
 							<ol class="breadcrumb visible-sm visible-md visible-lg">								
 								<li><a href="<?php echo U('index/index');?>">首页</a></li>
-								<li class="active">添加定制</li>
+								<li><a href="<?php echo U('home/planeList');?>">接机列表</a></li>
+								<li class="active">接机详情</li>
 							</ol>						
 						</div>
 						<div class="pull-right">
-							<h2>MEADADD</h2>
+							<h2>MEADINFO</h2>
 						</div>					
 					</div>
 					<!-- End Page Header -->
 					<div class="row">
-						<div class="col-md-6">
-							<div class="panel">
-								<div class="panel-heading bk-bg-primary">
-									<h6><i class="fa fa-indent red"></i>添加定制服务</h6>
+						<div class="panel bk-widget bk-border-off bk-noradius">
+							<div class="panel-heading bk-bg-primary">
+								<div class="row">
+									<div class="col-xs-8 text-left bk-vcenter">
+										<h6 class="bk-margin-off">接机详情页</h6>
+									</div>
 									<div class="panel-actions">
-										<a href="<?php echo U('Home/madeList');?>" ><button class="bk-margin-5 btn label-warning">定制列表</button></a>
+										<a href="<?php echo U('Home/planeAdd');?>" ><button class="bk-margin-5 btn label-warning">修改接机</button></a>
 									</div>
 								</div>
-								<div class="panel-body">
-									<form action="" method="post" enctype="multipart/form-data" class="form-horizontal ">
-										<input type="hidden" name="hid" value="<?php echo ($res[""]); ?>">
-										<div class="form-group">
-											<label class="col-md-3 control-label" for="text-input">标题：</label>
-											<div class="col-md-9">
-												<input type="text" id="text-input" name="text-input" class="form-control" value="<?php echo ($res[""]); ?>" placeholder="Text">
+							</div>
+							<div class="panel-body bk-bg-white bk-padding-off-top bk-padding-off-bottom">
+								<div class="row">
+									<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 bk-vcenter bk-padding-10">
+										<a class="pull-left bk-border-danger">
+											<div class="bk-avatar">
+												<img src="assets/img/gallery/photo6.jpg" alt="" class="img-responsive bk-img-60 bk-border-off" />
 											</div>
-										</div>
-
-										<div class="form-group">
-											<label class="col-md-3 control-label" for="textarea-input">内容：</label>
-											<div class="col-md-9">
-												<textarea id="textarea-input" name="textarea-input" rows="9" class="form-control" placeholder="Content.."><?php echo ($res[""]); ?></textarea>
-											</div>
-										</div>
-										<div class="form-group">
-											<label class="col-md-3 control-label" for="file-multiple-input">图片：</label>
-											<div class="col-md-9">
-												<input type="file" id="file-multiple-input" name="file-multiple-input" multiple />
-												<?php if($res != '' ): ?><img src="/project/Study master/git/ffck/master1/<?php echo ($res[""]); ?>" alt="" width="60%"><?php endif; ?>
-											</div>
-										</div>
-										<div class="form-group">
-											<label class="col-md-3 control-label">是否推荐：</label>
-
-											<?php if($res["is_show"] == 2): ?><div class="col-md-9">
-													<div class="radio-custom radio-inline">
-														<input type="radio"  name="inline-radios" value="1" >
-														<label for="inline-radio1">推荐</label>
-													</div>
-													<div class="radio-custom radio-inline">
-														<input type="radio" name="inline-radios" value="2" checked>
-														<label for="inline-radio2">不推荐</label>
-													</div>
-												</div>
-												<?php else: ?>
-												<div class="col-md-9">
-													<div class="radio-custom radio-inline">
-														<input type="radio" id="inline-radio1" name="inline-radios" value="1" checked>
-														<label for="inline-radio1">推荐</label>
-													</div>
-													<div class="radio-custom radio-inline">
-														<input type="radio" id="inline-radio2" name="inline-radios" value="2">
-														<label for="inline-radio2">不推荐</label>
-													</div>
-												</div><?php endif; ?>
-										</div>
-										<div class="panel-body">
-										<button type="button" class="bk-margin-5 btn btn-primary">Success</button>
-										</div>
-									</form>
-								</div>	
-							</div>	
+										</a>
+									</div>
+									<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 bk-vcenter">
+										<h6 class="bk-fg-danger bk-margin-off-bottom"><strong>RESPONSIVE MULTIPURPOSE</strong></h6>
+										<p>
+											<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
+										</p>
+									</div>
+									<div class="panel-body">
+										<?php if($res["is_show"] == 1 ): ?><button type="button" class="bk-margin-5 btn btn-default active" disabled><i class="glyphicon glyphicon-star"></i>推荐</button>
+											<?php else: ?>
+										    <button type="button" class="bk-margin-5 btn btn-default active" disabled> 不推荐</button><?php endif; ?>
+									</div>
+									<hr class="bk-margin-off" />
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

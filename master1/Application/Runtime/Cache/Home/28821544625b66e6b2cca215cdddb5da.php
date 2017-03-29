@@ -297,9 +297,9 @@
                             <i class="fa fa-tags" aria-hidden="true"></i><span>攻略</span>
                         </a>
                         <ul class="nav nav-children">
-                            <li><a href="form-elements.html"><i class="glyphicon glyphicon-pencil"></i><span class="text">添加攻略</span></a></li>
-                            <li><a href="form-wizard.html"><i class="fa fa-tag"></i><span class="text">新生攻略</span></a></li>
-                            <li><a href="form-dropzone.html"><i class="fa fa-gittip"></i><span class="text">师兄分享</span></a></li>
+                            <li><a href="<?php echo U('raider/raiderAdd');?>"><i class="glyphicon glyphicon-pencil"></i><span class="text">添加攻略</span></a></li>
+                            <li><a href="<?php echo U('raider/studentList');?>"><i class="fa fa-tag"></i><span class="text">新生攻略</span></a></li>
+                            <li><a href="<?php echo U('raider/brotherList');?>"><i class="fa fa-gittip"></i><span class="text">师兄分享</span></a></li>
                         </ul>
                     </li>
 
@@ -396,21 +396,19 @@
 						<div class="pull-left">
 							<ol class="breadcrumb visible-sm visible-md visible-lg">								
 								<li><a href="<?php echo U('index/index');?>">首页</a></li>
-								<li class="active">添加定制</li>
+								<li class="active">添加攻略</li>
 							</ol>						
 						</div>
-						<div class="pull-right">
-							<h2>MEADADD</h2>
-						</div>					
+
 					</div>
 					<!-- End Page Header -->
 					<div class="row">
 						<div class="col-md-6">
 							<div class="panel">
 								<div class="panel-heading bk-bg-primary">
-									<h6><i class="fa fa-indent red"></i>添加定制服务</h6>
+									<h6><i class="fa fa-indent red"></i>添加攻略服务</h6>
 									<div class="panel-actions">
-										<a href="<?php echo U('Home/madeList');?>" ><button class="bk-margin-5 btn label-warning">定制列表</button></a>
+										<a href="<?php echo U('Home/carList');?>" ><button class="bk-margin-5 btn label-warning">攻略列表</button></a>
 									</div>
 								</div>
 								<div class="panel-body">

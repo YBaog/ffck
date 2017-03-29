@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<block name="include"><include file="Public:head" /></block>
+	
+	<body>
+
+	<block name="include"><include file="Public:navbar" /></block>
+
+		<div class="container-fluid content">	
+			<div class="row">
+
+				<block name="include"><include file="Public:menu" /></block>
+		
+				<!-- Main Page -->
+				<div class="main ">
+					<!-- Page Header -->
+					<div class="page-header">
+						<div class="pull-left">
+							<ol class="breadcrumb visible-sm visible-md visible-lg">								
+								<li><a href="{:U('index/index')}">首页</a></li>
+								<li><a href="{:U('home/carList')}">包车列表</a></li>
+								<li class="active">包车详情</li>
+							</ol>						
+						</div>
+						<div class="pull-right">
+							<h2>MEADINFO</h2>
+						</div>					
+					</div>
+					<!-- End Page Header -->
+					<div class="row">
+						<div class="panel bk-widget bk-border-off bk-noradius">
+							<div class="panel-heading bk-bg-primary">
+								<div class="row">
+									<div class="col-xs-8 text-left bk-vcenter">
+										<h6 class="bk-margin-off">包车详情页</h6>
+									</div>
+									<div class="panel-actions">
+										<a href="{:U('Home/carAdd')}" ><button class="bk-margin-5 btn label-warning">修改包车</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="panel-body bk-bg-white bk-padding-off-top bk-padding-off-bottom">
+								<div class="row">
+									<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 bk-vcenter bk-padding-10">
+										<a class="pull-left bk-border-danger">
+											<div class="bk-avatar">
+												<img src="assets/img/gallery/photo6.jpg" alt="" class="img-responsive bk-img-60 bk-border-off" />
+											</div>
+										</a>
+									</div>
+									<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 bk-vcenter">
+										<h6 class="bk-fg-danger bk-margin-off-bottom"><strong>RESPONSIVE MULTIPURPOSE</strong></h6>
+										<p>
+											<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
+										</p>
+									</div>
+									<div class="panel-body">
+										<if condition="$res.is_show eq 1 ">
+											<button type="button" class="bk-margin-5 btn btn-default active" disabled><i class="glyphicon glyphicon-star"></i>推荐</button>
+											<else />
+										    <button type="button" class="bk-margin-5 btn btn-default active" disabled> 不推荐</button>
+										</if>
+									</div>
+									<hr class="bk-margin-off" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Main Page -->
+			
+			</div>
+		</div><!--/container-->
+		
+		<div class="clearfix"></div>
+
+
+	<block name="include"><include file="Public:footer" /></block>
+		
+	</body>
+	
+</html>
