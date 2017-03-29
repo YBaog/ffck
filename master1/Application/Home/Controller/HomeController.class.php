@@ -15,6 +15,8 @@ class HomeController extends Controller
      * 定制服务列表页
      */
     public function madeList(){
+        $made=M("made")->select();
+        $this->assign("made",$made);
         $this->display();
     }
     /*
