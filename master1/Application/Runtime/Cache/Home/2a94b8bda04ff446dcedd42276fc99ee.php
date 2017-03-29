@@ -8,7 +8,7 @@
     <meta charset="UTF-8" />
 
     <title>留学大师</title>
-    <base href="http://localhost/ffck/master1/Public/">
+    <base href="http://localhost/project/Study master/git/ffck/master1/Public/">
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -288,8 +288,8 @@
                         </a>
                         <ul class="nav nav-children">
                             <li><a href="<?php echo U('home/madeList');?>"><i class="glyphicon glyphicon-pushpin"></i><span class="text"> 定制服务</span></a></li>
-                            <li><a href="page-activity.html"><i class="fa fa-plane"></i><span class="text"> 接机服务</span></a></li>
-                            <li><a href="fa-truck"><i class="fa fa-truck"></i><span class="text"> 包车服务</span></a></li>
+                            <li><a href="<?php echo U('home/planeList');?>"><i class="fa fa-plane"></i><span class="text"> 接机服务</span></a></li>
+                            <li><a href="<?php echo U('home/carList');?>"><i class="fa fa-truck"></i><span class="text"> 包车服务</span></a></li>
                         </ul>
                     </li>
                     <li class="nav-parent">
@@ -297,9 +297,9 @@
                             <i class="fa fa-tags" aria-hidden="true"></i><span>攻略</span>
                         </a>
                         <ul class="nav nav-children">
-                            <li><a href="form-elements.html"><i class="glyphicon glyphicon-pencil"></i><span class="text">添加攻略</span></a></li>
-                            <li><a href="form-wizard.html"><i class="fa fa-tag"></i><span class="text">新生攻略</span></a></li>
-                            <li><a href="form-dropzone.html"><i class="fa fa-gittip"></i><span class="text">师兄分享</span></a></li>
+                            <li><a href="<?php echo U('raider/raiderAdd');?>"><i class="glyphicon glyphicon-pencil"></i><span class="text">添加攻略</span></a></li>
+                            <li><a href="<?php echo U('raider/studentList');?>"><i class="fa fa-tag"></i><span class="text">新生攻略</span></a></li>
+                            <li><a href="<?php echo U('raider/brotherList');?>"><i class="fa fa-gittip"></i><span class="text">师兄分享</span></a></li>
                         </ul>
                     </li>
 
@@ -308,10 +308,10 @@
                             <i class="fa fa-instagram" aria-hidden="true"></i><span>我的服务</span>
                         </a>
                         <ul class="nav nav-children">
-                            <li><a href="form-elements.html"><i class="fa fa-ticket"></i><span class="text">优惠券</span></a></li>
-                            <li><a href="form-wizard.html"><i class="fa fa-credit-card"></i><span class="text">订单</span></a></li>
-                            <li><a href="form-dropzone.html"><i class="fa fa-share-square-o"></i><span class="text">发布</span></a></li>
-                            <li><a href="form-dropzone.html"><i class="fa fa-road"></i><span class="text">司机行程</span></a></li>
+                            <li><a href="<?php echo U('mine/ticketList');?>"><i class="fa fa-ticket"></i><span class="text">优惠券</span></a></li>
+                            <li><a href="<?php echo U('mine/orderList');?>"><i class="glyphicon glyphicon-list-alt"></i><span class="text">订单</span></a></li>
+                            <li><a href="<?php echo U('mine/releaseList');?>"><i class="fa fa-share-square-o"></i><span class="text">发布</span></a></li>
+                            <li><a href="<?php echo U('mine/driverList');?>"><i class="fa fa-road"></i><span class="text">司机行程</span></a></li>
                         </ul>
                     </li>
 
@@ -320,9 +320,9 @@
                             <i class="glyphicon glyphicon-user" aria-hidden="true"></i><span>人员管理</span>
                         </a>
                         <ul class="nav nav-children">
-                            <li><a href="form-elements.html"><i class="fa fa-users"></i><span class="text">用户管理</span></a></li>
-                            <li><a href="form-wizard.html"><i class="fa fa-user-md"></i><span class="text">司机管理</span></a></li>
-                            <li><a href="form-dropzone.html"><i class="fa fa-user"></i><span class="text">管理员</span></a></li>
+                            <li><a href="<?php echo U('users/userList');?>"><i class="fa fa-users"></i><span class="text">用户管理</span></a></li>
+                            <li><a href="<?php echo U('users/driversList');?>"><i class="fa fa-user-md"></i><span class="text">司机管理</span></a></li>
+                            <li><a href="<?php echo U('users/adminList');?>"><i class="fa fa-user"></i><span class="text">管理员</span></a></li>
                         </ul>
                     </li>
 
@@ -331,10 +331,10 @@
                             <i class="fa fa-comments-o" aria-hidden="true"></i><span>消息管理</span>
                         </a>
                         <ul class="nav nav-children">
-                            <li><a href="form-elements.html"><i class="fa fa-comment"></i><span class="text">评论管理</span></a></li>
-                            <li><a href="form-wizard.html"><i class="fa fa-comment-o"></i><span class="text">评价管理</span></a></li>
-                            <li><a href="form-dropzone.html"><i class="glyphicon glyphicon-comment"></i><span class="text">反馈管理</span></a></li>
-                            <li><a href="form-dropzone.html"><i class="fa fa-comments"></i><span class="text">消息管理</span></a></li>
+                            <li><a href="<?php echo U('msg/commentList');?>"><i class="fa fa-comment"></i><span class="text">评论管理</span></a></li>
+                            <li><a href="<?php echo U('msg/evaluateList');?>"><i class="fa fa-comment-o"></i><span class="text">评价管理</span></a></li>
+                            <li><a href="<?php echo U('msg/feedbackList');?>"><i class="glyphicon glyphicon-comment"></i><span class="text">反馈管理</span></a></li>
+                            <li><a href="<?php echo U('msg/msgList');?>"><i class="fa fa-comments"></i><span class="text">消息管理</span></a></li>
                         </ul>
                     </li>
 
